@@ -1,0 +1,35 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color:#FAEBD7;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400px;
+    color:#272C46
+}
+body{
+    margin: 50px;
+    background-color:#F5F5F5;
+}
+.grid img{
+display:grid;
+flex-wrap:wrap;
+border: 2px thin #000000;
+border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color:#DCDCDC;
+    width:400px;
+    font-display:initial;
+    font-family:'Courier New', Courier, monospace;
+}
+.origami:hover{
+transform: scale(1.1);
+}
+a:link{
+    color: #c8a2c8  
+}
+a:visited{
+    color: #1aaaaa;
+}
